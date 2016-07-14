@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="noindex_navbar" inherit_id="website.user_navbar" name="Website noindex, nofollow navbar" groups="base.group_user">
+		<!-- <xpath expr="//nav[@id='oe_main_menu_navbar']" position="attributes">
+			<attribute name="class"><t t-if="website and website.no_index">no_indexed navbar navbar-inverse hidden-xs</t><t t-if="not website or not website.no_index">navbar navbar-inverse hidden-xs</t>
+			</attribute>
+		</xpath> -->
+
+		<xpath expr="//ul[@id='oe_systray']/li[1]" position="before">
+			<li class="no-index">
+				<a data-toggle="tooltip" data-placement="bottom" title="The site is disallowed to appear in search engines like Google and Bing"><i class="fa fa-warning"></i>&#160;Website no indexed</a>
+			</li>
+		</xpath> 
+	</template>
+</odoo>
