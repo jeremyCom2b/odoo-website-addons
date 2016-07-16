@@ -22,7 +22,7 @@
 {
     'name': 'Website - no index, no follow',
     'category': 'Website',
-    'summary': 'Website - no index, no follow',
+    'summary': 'Add the possibilities to deactivate website indexation by the search engines.',
     'version': '1.0',
     'licence': 'GPL-3',
     'description': """
@@ -35,6 +35,7 @@
     ],
     'data': [
         'views/website-config-settings.xml',
+        'templates/assets.xml',
         'templates/website_layout.xml',
         'templates/website_navbar.xml',
     ],
