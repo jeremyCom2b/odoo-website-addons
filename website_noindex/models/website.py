@@ -12,7 +12,6 @@ class Website(models.Model):
 
 
 class WebsiteConfigSettings(models.TransientModel):
-
     """Settings Website"""
 
     _inherit = 'website.config.settings'
