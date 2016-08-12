@@ -1,7 +1,7 @@
 # Website_noindex
 
 ## Description
-Add the possibilities to deactivate website indexation by the search engines like Google and Bing.
+Add the possibility to deactivate website indexation by the search engines like Google and Bing.
 
 You can activate/deactivate the website indexation by de Website Admin module / Configuration or by the Odoo website toolbar.
 
